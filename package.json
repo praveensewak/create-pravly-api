@@ -1,0 +1,18 @@
+{
+  "name": "create-pravly-api",
+  "version": "1.0.0",
+  "description": "Create a basic Nodejs API using Express, Mongoose, Passport, JWT.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/praveensewak/create-pravly-api.git"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "bin": {
+    "create-pravly-api": "./index.js"
+  },
+  "dependencies": {
+    "cross-spawn": "^7.0.3"
+  }
+}
