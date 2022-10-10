@@ -29,7 +29,9 @@ fs.writeFileSync(
   JSON.stringify(projectPackageJson, null, 2)
 );
 
-spawn.sync("npm", ["install"], { stdio: "inherit" });
+fs.rmSync(path.join(__dirname, "package-lock.json"));
+
+//spawn.sync("npm", ["install"], { stdio: "inherit" });
 
 console.log("Success! Your new project is ready.");
 console.log(`Created ${projectName} at ${projectDir}`);
