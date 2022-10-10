@@ -32,4 +32,4 @@ fs.writeFileSync(
 spawn.sync("npm", ["install"], { stdio: "inherit" });
 
 console.log("Success! Your new project is ready.");
-console.log(`Create ${projectName} at ${projectDir}`);
+console.log(`Created ${projectName} at ${projectDir}`);
