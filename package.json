@@ -1,6 +1,6 @@
 {
   "name": "create-pravly-api",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Create a basic Nodejs API using Express, Mongoose, Passport, JWT.",
   "repository": {
     "type": "git",
